@@ -27,7 +27,6 @@ def select_were(table, sys, row):
 
 def sortd(table, param):
     ls = []
-
     for i in range(2, len(table)):
         ls.append(table[i])
     ls = sorted(ls, key=lambda row: row[table[1].index(param)])
