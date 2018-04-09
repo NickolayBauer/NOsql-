@@ -42,6 +42,6 @@ add(table, ['Аджай', 'Far Cry IV'])
 add(table, ['Артём', 'Метро 2033'])
 add(table, ['Хантер', 'Метро 2033'])
 # show(table)
-
+print(select_were(table,'Игра','Метро 2033'))
 print('this_is_select:', select_were(table, 'Игра', 'Ведьмак III'))
 print(sortd(table, 'Имя'))
